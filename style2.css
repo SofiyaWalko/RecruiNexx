@@ -1,0 +1,227 @@
+@media  (max-width:1200px) {
+    a {
+        font-size: 20px;
+    }
+    
+}
+
+@media  (min-width:961px) {
+    .burger {
+        display: none;
+    }    
+}
+@media  (max-width:960px) {
+    .menu {
+        display: none;
+    }   
+    
+    h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    p {
+        font-size: 20px;        
+    }
+    .button {
+        font-size: 24px;
+    }
+      
+    .about_us_content {
+        row-gap: 15px;
+    } 
+    .priv {
+        max-width: 300px;       
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .quantity {        
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120px;        
+    }
+    .card_element span {        
+        font-size: 18px;
+        font-weight: 600;        
+    }
+    
+    .Why_hire h1 {
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 70px;
+    }
+    .square span {
+        font-size: 30px; 
+    }
+    .square {
+        width: 49px;
+        height: 49px;          
+    }
+    .Why_hire_row p {   
+        font-size: 20px;            
+    }
+    .Why_hire_column_2 p {         
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .Why_hire_column_1 {
+        row-gap: 40px;
+        margin-right: 40px;
+    }
+    .Why_hire_column_1 .Why_hire_row:nth-child(2), .Why_hire_row:nth-child(3) {
+        padding-top: 20px;
+    } 
+          
+    
+}
+@media  (max-width:1392px) {
+    .Examples_card:nth-child(2) {
+        display: none;
+    }   
+    .Examples_cards {
+        justify-content: center;
+    } 
+}
+
+@media  (max-width:983px) {
+    .When_you_cards, .Problems_cards {
+        justify-content: center;
+        column-gap: 42px;
+    }    
+}
+@media  (max-width:787px) {
+    .photo_1 {
+        flex-grow: 1;
+    } 
+    .photo_2 {
+        flex-grow: 1;
+    }
+
+}
+@media  (max-width:1439px) {
+    footer nav {
+        display: none;
+    }    
+}
+@media  (max-width:704px) {
+    .photo_1, .photo_2 {
+        width: 324px;        
+    } 
+    h1 {
+        
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 46px;
+    }
+    p {
+        font-size: 15px;        
+    }
+    .button {
+        font-size: 20px;        
+    } 
+    .quantity {
+        font-size: 36px;
+    }
+    .priv {
+        font-size: 15px;
+    }
+    .privileges {
+        flex-direction: column;
+    }
+    .card_content_1 > p {
+        font-size: 15px;
+    }
+    .card_title_1 {
+        font-size: 20px;
+    }
+    .card_content_1 > ul, .card_content_2 > ul {
+        font-size: 15px;        
+    }
+    .card_element_container {
+        margin: 35px 31px;
+        flex-direction: column;
+    }
+    .card_element span {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .card_content_2 {
+        flex-wrap: wrap;
+    }
+    .card_title_2 {
+        font-size: 20px;
+    }
+
+    .card_element {
+        flex-grow: 1;
+    }
+    .Our_clients_element span {
+        font-size: 24px;
+    }
+    .Our_clients_element {
+        height: 60px;
+        flex-grow: 1;
+    }
+    .Why_hire_content h1 {
+        font-size: 36px;        
+    }
+    .square span {
+        font-size: 18px;
+    }
+    .Why_hire_row p {   
+        font-size: 18px;            
+    }
+    .Why_hire_column_2 p {
+        font-size: 15px;         
+    }
+    .Why_hire_column {
+        flex-wrap: wrap;
+    }
+    .card_top_element:nth-child(3) {
+        display: none;
+    }
+    .specialty {
+        flex-wrap: wrap;
+    }
+    .name {
+        font-size: 18px;
+    }
+    .designer, .time {
+        font-size: 12px;
+    }
+    .Examples p {
+        font-size: 15px;
+    }
+    .Contacts_us p {
+        font-size: 15px;
+    }
+    .phone span, .social_media span, .email span {
+        font-size: 20px;
+    }
+    .phone span:nth-child(2), .email span:nth-child(2) {
+        font-size: 15px;
+    }     
+}
+@media  (max-width:490px) {
+    .photo_2, .photo_1 {
+        height: 345px;        
+    }  
+    
+}
+@media  (max-width:372px) {
+    .photo_2, .photo_1 {
+        height: 300px; 
+        width: 200px;       
+    }  
+    .card_title_2 {
+        font-size: 15px;
+    }
+        
+}
